@@ -2,13 +2,13 @@ program ProjetoIde;
 
 uses
   Vcl.Forms,
-  UPrincipal in 'UPrincipal.pas' {Form19};
+  UPrincipal in 'UPrincipal.pas' {frmPrincipal};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm19, Form19);
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
   Application.Run;
 end.

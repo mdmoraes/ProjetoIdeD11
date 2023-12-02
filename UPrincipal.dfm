@@ -1,9 +1,9 @@
-object Form19: TForm19
+object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
-  Caption = 'Form19'
-  ClientHeight = 442
-  ClientWidth = 628
+  Caption = 'Controle de Vers'#227'o via IDE'
+  ClientHeight = 480
+  ClientWidth = 703
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,4 +11,13 @@ object Form19: TForm19
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object btnFechar: TButton
+    Left = 584
+    Top = 416
+    Width = 75
+    Height = 25
+    Caption = 'Fechar'
+    TabOrder = 0
+    OnClick = btnFecharClick
+  end
 end
